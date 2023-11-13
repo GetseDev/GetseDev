@@ -23,7 +23,7 @@
 
 <div align="center">
 
-  🤗 Actualmente me estoy adentrando a las redes sociales para crear contenido, del cual te podría interesar. 🤗
+  🤗 Actualmente me estoy adentrando a las redes sociales para crear contenido, del cual te podría interesar y aprenderemos juntos. 🤗
 
 </div>
 
