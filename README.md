@@ -34,7 +34,7 @@ I like to understand and be able to **explain** what I build, and to debug down 
 
 **IaC:** CloudFormation · Terraform (in progress)
 
-**Languages:** Go · JavaScript / Node.js · Bash · Java / Spring Boot
+**Languages:** Go · Python · JavaScript / Node.js · Bash · Java / Spring Boot
 
 **Data:** PostgreSQL · MongoDB
 
