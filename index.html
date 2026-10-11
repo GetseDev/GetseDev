@@ -11,6 +11,7 @@
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://getsedev.github.io/GetseDev/">
   <link rel="alternate" type="application/json" href="https://getsedev.github.io/GetseDev/resume.json" title="Resume (JSON)">
+  <link rel="icon" type="image/svg+xml" href="https://getsedev.github.io/GetseDev/favicon.svg">
 
   <!-- Open Graph -->
   <meta property="og:type" content="profile">
@@ -48,7 +49,20 @@
   }
   </script>
 
-  <style>
+  <!-- Structured data: FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Who is Josué Getsemani?", "acceptedAnswer": { "@type": "Answer", "text": "Josué Getsemani Sandoval Villarreal (GetseDev) is a DevOps / Platform Engineer based in Mexico City, focused on deployment automation, CI/CD and cloud (AWS)." } },
+      { "@type": "Question", "name": "What does Josué Getsemani do?", "acceptedAnswer": { "@type": "Answer", "text": "He automates deployments (Go CLI), builds CI/CD pipelines (Azure DevOps), manages secrets (AWS Secrets Manager), standardizes container base images and works on container security (CVE remediation, image scanning)." } },
+      { "@type": "Question", "name": "What technologies does Josué Getsemani work with?", "acceptedAnswer": { "@type": "Answer", "text": "AWS (ECS/Fargate, ECR, RDS, DynamoDB, ElastiCache, Secrets Manager, CloudWatch, EventBridge, S3), Docker, Kubernetes, Terraform, CloudFormation, Azure DevOps, Go, Python, Node.js, PostgreSQL and Linux." } },
+      { "@type": "Question", "name": "Where is Josué Getsemani based and is he open to remote?", "acceptedAnswer": { "@type": "Answer", "text": "He is based in Mexico City and is open to remote roles." } },
+      { "@type": "Question", "name": "Is Josué Getsemani available for hire?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. He is open to DevOps, Platform, Cloud and SRE roles. Contact: getsemanilol29@gmail.com." } }
+    ]
+  }
+  </script>
     :root { --bg:#0d1117; --fg:#e6edf3; --muted:#9da7b3; --acc:#58a6ff; --card:#161b22; --bd:#30363d; }
     * { box-sizing: border-box; }
     body { margin:0; font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--fg); line-height:1.6; }
