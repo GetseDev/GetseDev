@@ -14,7 +14,7 @@
 - Email: getsemanilol29@gmail.com
 - LinkedIn: https://www.linkedin.com/in/getsemani/
 - GitHub: https://github.com/GetseDev
-- Website: https://getsedev.github.io/
+- Website: https://getsedev.github.io/GetseDev/
 
 ## Skills
 AWS (ECS/Fargate, ECR, RDS, DynamoDB, ElastiCache, Secrets Manager, CloudWatch, EventBridge, S3, ACM), Docker, Kubernetes, Terraform, CloudFormation, Azure DevOps (CI/CD), Go, Node.js, PostgreSQL, MongoDB, Linux, Vuls, Checkmarx, container security, secrets management.

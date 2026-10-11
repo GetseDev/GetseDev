@@ -4,7 +4,7 @@
     "name": "Josué Getsemani Sandoval Villarreal",
     "label": "DevOps / Platform Engineer (Semi-Senior)",
     "email": "getsemanilol29@gmail.com",
-    "url": "https://getsedev.github.io/",
+    "url": "https://getsedev.github.io/GetseDev/",
     "summary": "DevOps / Platform Engineer focused on deployment automation, CI/CD and cloud (AWS). I automate the install and deployment of integration platforms, design multi-brand release pipelines with secret management, and standardize container images with a focus on security and vulnerability remediation. Solid backend background (Java/Spring).",
     "location": {
       "city": "Mexico City",
@@ -67,7 +67,7 @@
     { "language": "English", "fluency": "A2" }
   ],
   "meta": {
-    "canonical": "https://getsedev.github.io/",
+    "canonical": "https://getsedev.github.io/GetseDev/",
     "updated": "2026-10-11",
     "open_to": ["DevOps Engineer", "Platform Engineer", "Cloud Engineer", "SRE"]
   }
