@@ -1,0 +1,74 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Josué Getsemani Sandoval Villarreal",
+    "label": "DevOps / Platform Engineer (Semi-Senior)",
+    "email": "getsemanilol29@gmail.com",
+    "url": "https://getsedev.github.io/",
+    "summary": "DevOps / Platform Engineer focused on deployment automation, CI/CD and cloud (AWS). I automate the install and deployment of integration platforms, design multi-brand release pipelines with secret management, and standardize container images with a focus on security and vulnerability remediation. Solid backend background (Java/Spring).",
+    "location": {
+      "city": "Mexico City",
+      "countryCode": "MX",
+      "region": "Mexico City"
+    },
+    "profiles": [
+      { "network": "LinkedIn", "username": "getsemani", "url": "https://www.linkedin.com/in/getsemani/" },
+      { "network": "GitHub", "username": "GetseDev", "url": "https://github.com/GetseDev" }
+    ]
+  },
+  "work": [
+    {
+      "name": "CITI Value in Real Time",
+      "position": "DevOps Engineer",
+      "startDate": "2025-09",
+      "endDate": "",
+      "location": "Mexico City, Mexico",
+      "highlights": [
+        "Deployment automation with a Go CLI for provisioning/deploying an integration platform (tenants, roles/scopes, user stores, Key Manager, Open Banking API).",
+        "CI/CD in Azure DevOps: multi-brand release pipelines (deploy-only, release-time versioning) and database migration gates (Flyway).",
+        "Secrets migration from variable groups to AWS Secrets Manager (ECS task secrets).",
+        "Base image standardization (Node LTS, Alpine/Debian) and CVE remediation; image scanning (Vuls, Checkmarx).",
+        "AWS infrastructure: ECS/Fargate, ECR, ElastiCache (Redis TLS+auth), DynamoDB, CloudWatch, EventBridge, CloudFormation."
+      ]
+    },
+    {
+      "name": "CITI Value in Real Time",
+      "position": "Mid Back End Developer",
+      "startDate": "2023-05",
+      "endDate": "2025-09",
+      "location": "Mexico City, Mexico",
+      "highlights": [
+        "Mobile payments backend; migration of relational databases (Oracle/MariaDB) to GCP Cloud Spanner.",
+        "Persistence re-engineering (UUID vs autoincrement, Hibernate dialects), HikariCP, Google Cloud Logging.",
+        "Reconciliation and settlement batch jobs. Java 8, Spring, MuleSoft ESB, Maven."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad de Guadalajara",
+      "area": "Information Technology",
+      "studyType": "Licenciatura",
+      "startDate": "2018",
+      "endDate": "2022"
+    }
+  ],
+  "skills": [
+    { "name": "AWS", "keywords": ["ECS", "Fargate", "ECR", "RDS", "DynamoDB", "ElastiCache", "Secrets Manager", "CloudWatch", "EventBridge", "S3", "ACM"] },
+    { "name": "Containers", "keywords": ["Docker", "ECS/Fargate", "Kubernetes (occasional)"] },
+    { "name": "CI/CD", "keywords": ["Azure DevOps", "Flyway"] },
+    { "name": "IaC", "keywords": ["CloudFormation", "Terraform (personal)"] },
+    { "name": "Languages", "keywords": ["Go", "JavaScript", "Node.js", "Bash", "Java", "Spring Boot"] },
+    { "name": "Data", "keywords": ["PostgreSQL", "MongoDB", "GCP Cloud Spanner"] },
+    { "name": "Security", "keywords": ["CVE remediation", "Vuls", "Checkmarx", "secrets management"] }
+  ],
+  "languages": [
+    { "language": "Spanish", "fluency": "Native" },
+    { "language": "English", "fluency": "A2" }
+  ],
+  "meta": {
+    "canonical": "https://getsedev.github.io/",
+    "updated": "2026-10-11",
+    "open_to": ["DevOps Engineer", "Platform Engineer", "Cloud Engineer", "SRE"]
+  }
+}
