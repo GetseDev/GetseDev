@@ -4,7 +4,7 @@
 
 ### DevOps / Platform Engineer (Semi-Senior) · Cloud & Automation
 
-**AWS · Docker / ECS · Kubernetes · Terraform · CI/CD · Go · Deployment Automation · Container Security**
+**AWS · Docker / ECS · CI/CD · CloudFormation · Go · Deployment Automation · Container Security** · *learning: Terraform, Kubernetes*
 
 📍 Mexico City · Open to DevOps / Platform / Cloud roles (remote) · also known as *Getsemani Sandoval* / *GetseDev*
 
