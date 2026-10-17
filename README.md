@@ -9,8 +9,7 @@
 📍 Mexico City · Open to DevOps / Platform / Cloud roles (remote) · also known as *Getsemani Sandoval* / *GetseDev*
 
 <a href="https://www.linkedin.com/in/getsemani/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:getsemanilol29@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://twitter.com/GetseDev"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+<a href="mailto:getsemanilol29@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></
 <a href="https://www.youtube.com/channel/UCeqSaejG70p87z6KzJi-DNw"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
 <a href="https://www.tiktok.com/@getsedev"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"></a>
 
