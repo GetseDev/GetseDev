@@ -1,73 +1,146 @@
+<!-- ═══════════════════════════════════════════════════════════════════
+     ██ GETSEDEV — RETRO ARCADE / ANIME PROFILE ██
+     PLAYER 1 · DEVOPS / PLATFORM ENGINEER
+     ═══════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
-# 👋 Hi, I'm Josué Getsemani Sandoval Villarreal — @GetseDev
+<img src="assets/banner.svg" width="100%" alt="GetseDev — retro arcade banner: DevOps / Platform Engineer">
 
-### DevOps / Platform Engineer (Semi-Senior) · Cloud & Automation
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=2800&pause=900&color=39FF14&center=true&vCenter=true&width=860&height=60&lines=%3E+PLAYER+1%3A+GETSEDEV;%3E+CLASS%3A+PLATFORM+ENGINEER;%3E+SPECIAL%3A+AUTOMATION+%2B+AWS;%3E+STATUS%3A+OPEN+TO+WORK" alt="Player 1: GetseDev — Platform Engineer — Automation + AWS — Open to work">
 
-**AWS · Docker / ECS · CI/CD · CloudFormation · Go · Deployment Automation · Container Security** · *learning: Terraform, Kubernetes*
+<br>
 
-📍 Mexico City · Open to DevOps / Platform / Cloud roles (remote) · also known as *Getsemani Sandoval* / *GetseDev*
-
-<a href="https://www.linkedin.com/in/getsemani/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:getsemanilol29@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-<a href="https://www.youtube.com/channel/UCeqSaejG70p87z6KzJi-DNw"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
-<a href="https://www.tiktok.com/@getsedev"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"></a>
+<a href="https://getsedev.github.io/GetseDev/"><img src="https://img.shields.io/badge/PORTFOLIO-39FF14?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=0B0A1F" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/getsemani/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0A1F" alt="LinkedIn"></a> <a href="mailto:getsemanilol29@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF2E97?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0A1F" alt="Email"></a> <a href="https://www.youtube.com/channel/UCeqSaejG70p87z6KzJi-DNw"><img src="https://img.shields.io/badge/YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0B0A1F" alt="YouTube"></a> <a href="https://www.tiktok.com/@getsedev"><img src="https://img.shields.io/badge/TIKTOK-00E5FF?style=for-the-badge&logo=tiktok&logoColor=000000&labelColor=0B0A1F" alt="TikTok"></a>
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
-## 🚀 About me
+<table>
+  <tr>
+    <td width="200" valign="middle" align="center">
+      <img src="assets/avatar-pixel.png" width="176" alt="Pixel-art avatar of Josué Getsemani (GetseDev)">
+    </td>
+    <td valign="middle">
+<pre>
+╔════════════════════════════════════════════════════╗
+║  > PLAYER 1 ................ GETSEDEV              ║
+║    CLASS  : DEVOPS / PLATFORM ENGINEER             ║
+║    GUILD  : CITI VALUE IN REAL TIME                ║
+║    SERVER : MEXICO CITY · UTC-6                    ║
+╠════════════════════════════════════════════════════╣
+║    HP  ██████████████████░░░░  CLOUD / AWS         ║
+║    MP  ████████████████░░░░░░  AUTOMATION / CI-CD  ║
+║    XP  ████████████░░░░░░░░░░  TERRAFORM · K8S     ║
+╚════════════════════════════════════════════════════╝
+</pre>
+    </td>
+  </tr>
+</table>
 
-DevOps / Platform Engineer focused on **deployment automation**, **CI/CD** and **cloud (AWS)**. I automate the install and deployment of integration platforms, design multi-brand release pipelines with secret management, and standardize container images with a focus on **security and vulnerability remediation**.
+## `> ABOUT_ME.EXE`
 
-I like to understand and be able to **explain** what I build, and to debug down to the **root cause**. Solid backend background (Java/Spring) that I use as a bridge between code and infrastructure.
+**DevOps / Platform Engineer (Semi-Senior)** who treats infrastructure like a speedrun: **automate it, measure it, optimize the route.**
 
-## 🛠️ Tech Stack
+I automate the install and deployment of integration platforms, design multi-brand release pipelines with secret management, and standardize container images with a security-first mindset (CVE remediation, image scanning). I come from a backend background (Java / Spring), which I use as a bridge between code and infrastructure.
 
-**Cloud:** AWS (ECS/Fargate, ECR, RDS, DynamoDB, ElastiCache, Secrets Manager, CloudWatch, EventBridge, S3, ACM) · GCP (occasional)
+> *"Believe in the pipeline that believes in you."* — ancient DevOps proverb
 
-**Containers:** Docker (base images, multi-stage) · ECS/Fargate · Kubernetes (occasional)
+- 🔭 **Currently building:** an **LLM Gateway on AWS** (API Gateway · Terraform · CDK · Python) and a **Go CLI** for deployment automation.
+- 🎯 **Currently grinding:** Terraform · AWS CDK · Kubernetes · Python.
+- 🕹️ **Open to:** DevOps / Platform / Cloud / SRE roles — remote or Mexico City.
+- ⚡ **Power move:** debugging down to the root cause instead of restarting the pod and praying.
+- 🎓 **Save file:** B.Sc. in Information Technology — Universidad de Guadalajara (2018–2022).
+- 📍 Mexico City, MX · UTC-6 · Spanish (native) · English (A2, improving)
 
-**CI/CD:** Azure DevOps (pipelines, releases, variable groups, Artifacts) · Flyway
+## `> SKILL_TREE`
 
-**IaC:** CloudFormation · Terraform (in progress)
+**☁️ CLOUD**
 
-**Languages:** Go · Python · JavaScript / Node.js · Bash · Java / Spring Boot
+<img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white&labelColor=0B0A1F" alt="AWS"> <img src="https://img.shields.io/badge/ECS%2FFARGATE-FF9900?style=for-the-badge&logo=amazonecs&logoColor=white&labelColor=0B0A1F" alt="ECS/Fargate"> <img src="https://img.shields.io/badge/ECR-FF9900?style=for-the-badge&labelColor=0B0A1F" alt="ECR"> <img src="https://img.shields.io/badge/RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white&labelColor=0B0A1F" alt="RDS"> <img src="https://img.shields.io/badge/DYNAMODB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white&labelColor=0B0A1F" alt="DynamoDB"> <img src="https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white&labelColor=0B0A1F" alt="S3"> <img src="https://img.shields.io/badge/CLOUDWATCH-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white&labelColor=0B0A1F" alt="CloudWatch"> <img src="https://img.shields.io/badge/EVENTBRIDGE-FF4F8B?style=for-the-badge&labelColor=0B0A1F" alt="EventBridge"> <img src="https://img.shields.io/badge/SECRETS%20MANAGER-FF4F8B?style=for-the-badge&labelColor=0B0A1F" alt="Secrets Manager">
 
-**Data:** PostgreSQL · MongoDB
+**📦 CONTAINERS & OS**
 
-**Security:** CVE remediation · image scanning (Vuls, Checkmarx) · secret management
+<img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0B0A1F" alt="Docker"> <img src="https://img.shields.io/badge/KUBERNETES-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&labelColor=0B0A1F" alt="Kubernetes"> <img src="https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=000000&labelColor=0B0A1F" alt="Linux">
+
+**🔁 CI/CD & AUTOMATION**
+
+<img src="https://img.shields.io/badge/AZURE%20DEVOPS-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white&labelColor=0B0A1F" alt="Azure DevOps"> <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=0B0A1F" alt="Git"> <img src="https://img.shields.io/badge/FLYWAY-CC0200?style=for-the-badge&labelColor=0B0A1F" alt="Flyway"> <img src="https://img.shields.io/badge/BASH-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=0B0A1F" alt="Bash">
+
+**🧱 INFRA AS CODE**
+
+<img src="https://img.shields.io/badge/CLOUDFORMATION-FF4F8B?style=for-the-badge&labelColor=0B0A1F" alt="CloudFormation"> <img src="https://img.shields.io/badge/TERRAFORM-7B42BC?style=for-the-badge&logo=terraform&logoColor=white&labelColor=0B0A1F" alt="Terraform"> <img src="https://img.shields.io/badge/AWS%20CDK-FF9900?style=for-the-badge&labelColor=0B0A1F" alt="AWS CDK">
+
+**💻 LANGUAGES**
+
+<img src="https://img.shields.io/badge/GO-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=0B0A1F" alt="Go"> <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0B0A1F" alt="Python"> <img src="https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0B0A1F" alt="Node.js"> <img src="https://img.shields.io/badge/JAVA-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=0B0A1F" alt="Java"> <img src="https://img.shields.io/badge/SPRING%20BOOT-6DB33F?style=for-the-badge&logo=springboot&logoColor=white&labelColor=0B0A1F" alt="Spring Boot">
+
+**🗄️ DATA**
+
+<img src="https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=0B0A1F" alt="PostgreSQL"> <img src="https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=0B0A1F" alt="MongoDB"> <img src="https://img.shields.io/badge/REDIS%20%2F%20ELASTICACHE-DC382D?style=for-the-badge&logo=redis&logoColor=white&labelColor=0B0A1F" alt="Redis / ElastiCache"> <img src="https://img.shields.io/badge/CLOUD%20SPANNER-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white&labelColor=0B0A1F" alt="Cloud Spanner">
+
+**🛡️ SECURITY**
+
+<img src="https://img.shields.io/badge/CVE%20REMEDIATION-FF2E97?style=for-the-badge&labelColor=0B0A1F" alt="CVE remediation"> <img src="https://img.shields.io/badge/IMAGE%20SCANNING%20(VULS%20%C2%B7%20CHECKMARX)-00E5FF?style=for-the-badge&logoColor=000000&labelColor=0B0A1F" alt="Image scanning (Vuls, Checkmarx)"> <img src="https://img.shields.io/badge/SECRETS%20MANAGEMENT-39FF14?style=for-the-badge&logoColor=000000&labelColor=0B0A1F" alt="Secrets management">
+
+## `> QUEST_LOG`
+
+### ⚔️ MAIN QUEST — DevOps Engineer
+
+`CITI Value in Real Time` · `Sep 2025 → Present` · `Mexico City`
+
+- [x] **AUTOMATION MAIN** — built a **Go CLI** that provisions and deploys an integration platform end-to-end (tenants, roles/scopes, user stores, Key Manager, Open Banking API).
+- [x] **PIPELINE ARCHITECT** — designed multi-brand release pipelines in **Azure DevOps** (deploy-only, release-time versioning) with **Flyway** database migration gates.
+- [x] **SECRET KEEPER** — migrated credentials from variable groups to **AWS Secrets Manager** (ECS task secrets).
+- [x] **CVE SLAYER** — standardized base images (Node LTS, Alpine/Debian) and drove **CVE remediation** with **Vuls** + **Checkmarx** image scanning.
+- [x] **CLOUD OPS** — ECS/Fargate, ECR, ElastiCache (Redis TLS + auth), DynamoDB, CloudWatch, EventBridge and CloudFormation in production.
+
+### 🗡️ SIDE QUEST — Mid Back End Developer
+
+`CITI Value in Real Time` · `May 2023 → Sep 2025` · `Mexico City`
+
+- [x] **PAYMENTS BACKEND** — Java / Spring backend for a mobile payments platform; migrated relational databases (Oracle / MariaDB) to **GCP Cloud Spanner**.
+- [x] **PERSISTENCE RE-ENGINEER** — UUID vs autoincrement, Hibernate dialects, HikariCP, Google Cloud Logging.
+- [x] **BATCH BOSS** — reconciliation and settlement batch jobs (Java 8, Spring, MuleSoft ESB, Maven).
+
+## `> CURRENT_BUILDS`
+
+| 🎮 PROJECT | STATUS | STACK |
+|:--|:--:|:--|
+| **LLM Gateway on AWS** — provider-agnostic LLM gateway | 🟢 IN PROGRESS | API Gateway · Terraform · AWS CDK · Python |
+| **Deployment Automation CLI** — resumable, per-environment provisioning | 🟡 IN PROGRESS | Go · WSO2 IS/APIM · Azure DevOps |
+
+## `> CONTROLS`
+
+| 🎮 KEY | ⚡ ACTION |
+|:--:|:--|
+| `↑ ↓ ← →` | navigate infrastructure |
+| `A` | automate the boring stuff |
+| `B` | rollback (always have one) |
+| `START` | deploy to prod — after approval gates |
+| `SELECT` | read the logs. then read them again. |
+
+## `> HIGH_SCORES`
 
 <div align="center">
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<img width="700" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GetseDev&theme=github_dark&bg_color=0B0A1F&title_color=FF2E97&text_color=C9D1FF&icon_color=00E5FF&border_color=2A1B4E" alt="GitHub profile summary: 536 contributions, 23 public repos">
+
+<br>
+
+<img src="https://img.shields.io/github/followers/GetseDev?style=for-the-badge&label=FOLLOWERS&color=39FF14&labelColor=0B0A1F" alt="Followers"> <img src="https://img.shields.io/github/last-commit/GetseDev/GetseDev?style=for-the-badge&label=LAST%20COMMIT&color=7B2BFF&labelColor=0B0A1F" alt="Last commit">
 
 </div>
 
-## 📊 GitHub
+<img src="assets/divider.svg" width="100%" alt="">
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=GetseDev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GetseDev&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages">
+### 🕹️ THANKS FOR PLAYING — INSERT COIN TO CONTINUE
 
-</div>
+<a href="https://getsedev.github.io/GetseDev/"><img src="https://img.shields.io/badge/VIEW%20PORTFOLIO-39FF14?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=0B0A1F" alt="Portfolio"></a> <a href="mailto:getsemanilol29@gmail.com"><img src="https://img.shields.io/badge/SAY%20HI-FF2E97?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0A1F" alt="Email"></a> <a href="https://www.linkedin.com/in/getsemani/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0A1F" alt="LinkedIn"></a>
 
----
-
-<div align="center">
-
-### 🤝 Learning in public and sharing content
-
-Follow me on my socials to learn together 👆
+<sub>© 2026 Josué Getsemani Sandoval Villarreal · GetseDev — built with ⚡, ☕ and way too many terminal tabs.</sub>
 
 </div>

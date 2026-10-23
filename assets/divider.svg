@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-label="divider">
+<defs>
+  <linearGradient id="dg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#05010f"/>
+    <stop offset="20%" stop-color="#00e5ff"/>
+    <stop offset="50%" stop-color="#ff2e97"/>
+    <stop offset="80%" stop-color="#00e5ff"/>
+    <stop offset="100%" stop-color="#05010f"/>
+  </linearGradient>
+  <filter id="dglow" x="-20%" y="-200%" width="140%" height="500%">
+    <feGaussianBlur stdDeviation="2.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="0" y="13" width="1200" height="2" fill="url(#dg)" opacity="0.9" filter="url(#dglow)"/>
+<rect x="8" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="56" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="104" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="152" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="200" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="248" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="296" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="344" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="392" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="440" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="488" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="536" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="584" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="632" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="680" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="728" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="776" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="824" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="872" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="920" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="968" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="1016" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="1064" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="1112" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<rect x="1160" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
+<path d="M600 6 L607 14 L600 22 L593 14 Z" fill="#ff2e97" filter="url(#dglow)"/>
+<path d="M600 9 L604 14 L600 19 L596 14 Z" fill="#fff"/>
+</svg>
