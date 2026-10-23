@@ -30,7 +30,7 @@
 ║    ALIGN  : LAWFUL AUTOMATED                       ║
 ║    GUILD  : CITI VALUE IN REAL TIME                ║
 ║    SERVER : TIJUANA · REMOTE · UTC-7               ║
-║    GENRE  : ANIME · RETRO GAMES · CLOUD            ║
+║    GENRE  : ANIME · GAMES · CLOUD                  ║
 ╠════════════════════════════════════════════════════╣
 ║    HP  ██████████████████░░░░  CLOUD / AWS         ║
 ║    MP  ████████████████░░░░░░  AUTOMATION / CI-CD  ║
@@ -55,7 +55,7 @@ I automate the install and deployment of integration platforms, design multi-bra
 - 🎯 **Currently grinding:** Terraform · AWS CDK · Kubernetes · Python.
 - 🕹️ **Open to:** DevOps / Platform / Cloud / SRE roles — remote (from Tijuana, MX) or Mexico City.
 - ⚡ **Power move:** debugging down to the root cause instead of restarting the pod and praying.
-- 🎮 **Off duty:** anime, video games and a backlog I will never finish.
+- 🎮 **Off duty:** anime, CS/LoL with friends, Digimon, and a backlog I will never finish.
 - 🎓 **Save file:** B.Sc. in Information Technology — Universidad de Guadalajara (2018–2022).
 - 📍 Tijuana, MX · remote · UTC-7 · Spanish (native) · English (A2, improving)
 
@@ -149,7 +149,15 @@ I automate the install and deployment of integration platforms, design multi-bra
 
 > 「進め」 — *keep moving forward.* Shonen energy, rivalry arcs and characters that refuse to lose: the same energy I bring to production incidents.
 
-<sub>🎮 Side quest: building my own roguelite — **[Goddess's Trial](https://github.com/GetseDev/goddess-trial)**.</sub>
+## `> GAME_CORNER`
+
+**「推しゲーム」 · MY GAME LOADOUT**
+
+<img src="https://img.shields.io/badge/CS%3AGO%20%2F%20CS2-DE9B35?style=for-the-badge&logo=counterstrike&logoColor=white&labelColor=0B0A1F" alt="CS:GO / CS2"> <img src="https://img.shields.io/badge/LEAGUE%20OF%20LEGENDS-C89B3C?style=for-the-badge&logo=leagueoflegends&logoColor=white&labelColor=0B0A1F" alt="League of Legends"> <img src="https://img.shields.io/badge/DIGIMON%3A%20HACKER%27S%20MEMORY-2D7DD2?style=for-the-badge&labelColor=0B0A1F" alt="Digimon Story: Cyber Sleuth – Hacker's Memory"> <img src="https://img.shields.io/badge/DIGIMON%3A%20TIME%20STRANGER-F2A33A?style=for-the-badge&labelColor=0B0A1F" alt="Digimon Story: Time Stranger"> <img src="https://img.shields.io/badge/HADES-C0392B?style=for-the-badge&labelColor=0B0A1F" alt="Hades">
+
+> Clutch rounds, ranked teamfights, roguelite runs and Digimon grinding — the *"one more run"* energy I bring to automation.
+
+<sub>🎮 Currently building my own roguelite — **[Goddess's Trial](https://github.com/GetseDev/goddess-trial)** (Hades-style, one thumb, Android).</sub>
 
 ## `> HIGH_SCORES`
 
