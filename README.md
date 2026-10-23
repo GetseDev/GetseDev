@@ -95,7 +95,7 @@ I automate the install and deployment of integration platforms, design multi-bra
 
 `CITI Value in Real Time` · `Sep 2025 → Present` · `Mexico City`
 
-- [x] **AUTOMATION MAIN** — built a **Go CLI** that provisions and deploys an integration platform end-to-end (tenants, roles/scopes, user stores, Key Manager, Open Banking API).
+- [x] **AUTOMATION MAIN** — built a **Go CLI** that provisions and deploys an internal integration platform end-to-end (resumable runs, per-environment configuration).
 - [x] **PIPELINE ARCHITECT** — designed multi-brand release pipelines in **Azure DevOps** (deploy-only, release-time versioning) with **Flyway** database migration gates.
 - [x] **SECRET KEEPER** — migrated credentials from variable groups to **AWS Secrets Manager** (ECS task secrets).
 - [x] **CVE SLAYER** — standardized base images (Node LTS, Alpine/Debian) and drove **CVE remediation** with **Vuls** + **Checkmarx** image scanning.
