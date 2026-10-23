@@ -139,6 +139,18 @@ I automate the install and deployment of integration platforms, design multi-bra
 | `START` | deploy to prod — after approval gates |
 | `SELECT` | read the logs. then read them again. |
 
+## `> ANIME_CORNER`
+
+**「推しアニメ」 · MY FAVORITE ANIME**
+
+<img src="https://img.shields.io/badge/BLEACH-FF6A00?style=for-the-badge&labelColor=0B0A1F" alt="Bleach"> <img src="https://img.shields.io/badge/BLACK%20CLOVER-1F7A3D?style=for-the-badge&labelColor=0B0A1F" alt="Black Clover"> <img src="https://img.shields.io/badge/ATTACK%20ON%20TITAN-8B1E1E?style=for-the-badge&labelColor=0B0A1F" alt="Attack on Titan"> <img src="https://img.shields.io/badge/BLUE%20EXORCIST-1E63C4?style=for-the-badge&labelColor=0B0A1F" alt="Blue Exorcist"> <img src="https://img.shields.io/badge/BLUE%20LOCK-00A3FF?style=for-the-badge&labelColor=0B0A1F" alt="Blue Lock"> <img src="https://img.shields.io/badge/VINLAND%20SAGA-2F6F6B?style=for-the-badge&labelColor=0B0A1F" alt="Vinland Saga"> <img src="https://img.shields.io/badge/%2B%20MANY%20MORE-4B5563?style=for-the-badge&labelColor=0B0A1F" alt="And many more">
+
+<sub>ブリーチ · ブラッククローバー · 進撃の巨人 · 青の祓魔師 · ブルーロック · ヴィンランド・サガ</sub>
+
+> 「進め」 — *keep moving forward.* Shonen energy, rivalry arcs and characters that refuse to lose: the same energy I bring to production incidents.
+
+<sub>🎮 Side quest: building my own roguelite — **[Goddess's Trial](https://github.com/GetseDev/goddess-trial)**.</sub>
+
 ## `> HIGH_SCORES`
 
 <div align="center">
