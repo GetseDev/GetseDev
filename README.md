@@ -5,30 +5,32 @@
 
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="GetseDev — retro arcade banner: DevOps / Platform Engineer">
+<img src="assets/banner.svg?v=2" width="100%" alt="GetseDev — retro arcade banner: DevOps / Platform Engineer">
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=2800&pause=900&color=39FF14&center=true&vCenter=true&width=860&height=60&lines=%3E+PLAYER+1%3A+GETSEDEV;%3E+CLASS%3A+PLATFORM+ENGINEER;%3E+SPECIAL%3A+AUTOMATION+%2B+AWS;%3E+STATUS%3A+OPEN+TO+WORK" alt="Player 1: GetseDev — Platform Engineer — Automation + AWS — Open to work">
+<img src="assets/terminal.svg?v=2" width="860" alt="Player 1: GetseDev — Platform Engineer — Automation + AWS — Open to work">
 
 <br>
 
-<a href="https://getsedev.github.io/GetseDev/"><img src="https://img.shields.io/badge/PORTFOLIO-39FF14?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=0B0A1F" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/getsemani/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0A1F" alt="LinkedIn"></a> <a href="mailto:getsemanilol29@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF2E97?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0A1F" alt="Email"></a> <a href="https://www.youtube.com/channel/UCeqSaejG70p87z6KzJi-DNw"><img src="https://img.shields.io/badge/YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0B0A1F" alt="YouTube"></a> <a href="https://www.tiktok.com/@getsedev"><img src="https://img.shields.io/badge/TIKTOK-00E5FF?style=for-the-badge&logo=tiktok&logoColor=000000&labelColor=0B0A1F" alt="TikTok"></a>
+<a href="https://getsedev.github.io/GetseDev/"><img src="https://img.shields.io/badge/PORTFOLIO-39FF14?style=for-the-badge&logo=github&logoColor=000000&labelColor=0B0A1F" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/getsemani/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0A1F" alt="LinkedIn"></a> <a href="mailto:getsemanilol29@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF2E97?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0A1F" alt="Email"></a> <a href="https://www.youtube.com/channel/UCeqSaejG70p87z6KzJi-DNw"><img src="https://img.shields.io/badge/YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0B0A1F" alt="YouTube"></a> <a href="https://www.tiktok.com/@getsedev"><img src="https://img.shields.io/badge/TIKTOK-00E5FF?style=for-the-badge&logo=tiktok&logoColor=000000&labelColor=0B0A1F" alt="TikTok"></a>
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="">
+<img src="assets/divider.svg?v=2" width="100%" alt="">
 
 <table>
   <tr>
     <td width="200" valign="middle" align="center">
-      <img src="assets/avatar-pixel.png" width="176" alt="Pixel-art avatar of Josué Getsemani (GetseDev)">
+      <img src="assets/avatar-glitch.svg?v=2" width="176" alt="Pixel-art avatar of Josué Getsemani (GetseDev) on a glitching CRT screen">
     </td>
     <td valign="middle">
 <pre>
 ╔════════════════════════════════════════════════════╗
 ║  > PLAYER 1 ................ GETSEDEV              ║
 ║    CLASS  : DEVOPS / PLATFORM ENGINEER             ║
+║    ALIGN  : LAWFUL AUTOMATED                       ║
 ║    GUILD  : CITI VALUE IN REAL TIME                ║
-║    SERVER : MEXICO CITY · UTC-6                    ║
+║    SERVER : TIJUANA · REMOTE · UTC-7               ║
+║    GENRE  : ANIME · RETRO GAMES · CLOUD            ║
 ╠════════════════════════════════════════════════════╣
 ║    HP  ██████████████████░░░░  CLOUD / AWS         ║
 ║    MP  ████████████████░░░░░░  AUTOMATION / CI-CD  ║
@@ -46,13 +48,16 @@
 I automate the install and deployment of integration platforms, design multi-brand release pipelines with secret management, and standardize container images with a security-first mindset (CVE remediation, image scanning). I come from a backend background (Java / Spring), which I use as a bridge between code and infrastructure.
 
 > *"Believe in the pipeline that believes in you."* — ancient DevOps proverb
+>
+> 「七転び八起き」 — *fall seven times, stand up eight.*
 
-- 🔭 **Currently building:** an **LLM Gateway on AWS** (API Gateway · Terraform · CDK · Python) and a **Go CLI** for deployment automation.
+- 🔭 **Currently building:** an **LLM Gateway on AWS** (API Gateway · Terraform · CDK · Python).
 - 🎯 **Currently grinding:** Terraform · AWS CDK · Kubernetes · Python.
-- 🕹️ **Open to:** DevOps / Platform / Cloud / SRE roles — remote or Mexico City.
+- 🕹️ **Open to:** DevOps / Platform / Cloud / SRE roles — remote (from Tijuana, MX) or Mexico City.
 - ⚡ **Power move:** debugging down to the root cause instead of restarting the pod and praying.
+- 🎮 **Off duty:** anime, video games and a backlog I will never finish.
 - 🎓 **Save file:** B.Sc. in Information Technology — Universidad de Guadalajara (2018–2022).
-- 📍 Mexico City, MX · UTC-6 · Spanish (native) · English (A2, improving)
+- 📍 Tijuana, MX · remote · UTC-7 · Spanish (native) · English (A2, improving)
 
 ## `> SKILL_TREE`
 
@@ -104,12 +109,25 @@ I automate the install and deployment of integration platforms, design multi-bra
 - [x] **PERSISTENCE RE-ENGINEER** — UUID vs autoincrement, Hibernate dialects, HikariCP, Google Cloud Logging.
 - [x] **BATCH BOSS** — reconciliation and settlement batch jobs (Java 8, Spring, MuleSoft ESB, Maven).
 
-## `> CURRENT_BUILDS`
+## `> ACHIEVEMENTS`
+
+| 🏆 | ACHIEVEMENT | UNLOCKED BY |
+|:--:|:--|:--|
+| 🥇 | **ONE PUNCH DEPLOY** | a single Go command provisions and deploys the whole integration platform |
+| 🌀 | **SHADOW CLONE JUTSU** | multi-brand release pipelines generated from one template |
+| 🤖 | **MECHA PILOT** | services containerized on ECS/Fargate with standardized base images |
+| 🧘 | **KAIZEN** | continuous CVE remediation + image scanning (Vuls · Checkmarx) |
+
+> 🔒 **NEXT UNLOCKS:** Terraform mastery · Kubernetes black belt · AWS certifications.
+
+## `> FEATURED_PROJECTS`
 
 | 🎮 PROJECT | STATUS | STACK |
 |:--|:--:|:--|
-| **LLM Gateway on AWS** — provider-agnostic LLM gateway | 🟢 IN PROGRESS | API Gateway · Terraform · AWS CDK · Python |
-| **Deployment Automation CLI** — resumable, per-environment provisioning | 🟡 IN PROGRESS | Go · WSO2 IS/APIM · Azure DevOps |
+| **[Goddess's Trial](https://github.com/GetseDev/goddess-trial)** — one-thumb survivor × Hades-style roguelite for Android | 🟠 PROTOTYPE | Godot 4.7 · GDScript |
+| **[LLM Gateway](https://github.com/GetseDev/llm-gateway)** — provider-agnostic entry point for AI models: auth, team budgets, cost tracking, guardrails | 🟢 IN PROGRESS | API Gateway · Terraform · CDK · Python |
+| **[Terraform Modules](https://github.com/GetseDev/terraform-modules-getsemani)** — reusable AWS modules, built in public with branches + PRs | 🟢 IN PROGRESS | Terraform · AWS |
+| **[AWS + Terraform Microservices Lab](https://github.com/GetseDev/aws-terraform-microservices-lab)** — CI/CD + Terraform + AWS lab with FastAPI microservices | 🧪 LAB | Terraform · FastAPI · AWS |
 
 ## `> CONTROLS`
 
@@ -125,7 +143,15 @@ I automate the install and deployment of integration platforms, design multi-bra
 
 <div align="center">
 
-<img width="700" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GetseDev&theme=github_dark&bg_color=0B0A1F&title_color=FF2E97&text_color=C9D1FF&icon_color=00E5FF&border_color=2A1B4E" alt="GitHub profile summary: 536 contributions, 23 public repos">
+<img width="700" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GetseDev&theme=github_dark&bg_color=0B0A1F&title_color=FF2E97&text_color=C9D1FF&icon_color=00E5FF&border_color=2A1B4E" alt="GitHub profile summary: contributions, public repos, joined date">
+
+<br>
+
+<img width="400" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GetseDev&theme=github_dark&bg_color=0B0A1F&title_color=FF2E97&text_color=C9D1FF&icon_color=00E5FF&border_color=2A1B4E" alt="GitHub stats: total commits, PRs, stars and issues"> <img width="400" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=GetseDev&theme=github_dark&bg_color=0B0A1F&title_color=FF2E97&text_color=C9D1FF&icon_color=00E5FF&border_color=2A1B4E" alt="Top languages by repository">
+
+<br>
+
+<img width="495" src="https://streak-stats.demolab.com?user=GetseDev&hide_border=true&background=0B0A1F&stroke=2A1B4E&ring=FF2E97&fire=39FF14&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00E5FF&sideLabels=C9D1FF&dates=8A7FB5" alt="Contribution streak and totals">
 
 <br>
 
@@ -133,13 +159,13 @@ I automate the install and deployment of integration platforms, design multi-bra
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="">
+<img src="assets/divider.svg?v=2" width="100%" alt="">
 
 <div align="center">
 
 ### 🕹️ THANKS FOR PLAYING — INSERT COIN TO CONTINUE
 
-<a href="https://getsedev.github.io/GetseDev/"><img src="https://img.shields.io/badge/VIEW%20PORTFOLIO-39FF14?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=0B0A1F" alt="Portfolio"></a> <a href="mailto:getsemanilol29@gmail.com"><img src="https://img.shields.io/badge/SAY%20HI-FF2E97?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0A1F" alt="Email"></a> <a href="https://www.linkedin.com/in/getsemani/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0A1F" alt="LinkedIn"></a>
+<a href="https://getsedev.github.io/GetseDev/"><img src="https://img.shields.io/badge/VIEW%20PORTFOLIO-39FF14?style=for-the-badge&logo=github&logoColor=000000&labelColor=0B0A1F" alt="Portfolio"></a> <a href="mailto:getsemanilol29@gmail.com"><img src="https://img.shields.io/badge/SAY%20HI-FF2E97?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0A1F" alt="Email"></a> <a href="https://www.linkedin.com/in/getsemani/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0A1F" alt="LinkedIn"></a>
 
 <sub>© 2026 Josué Getsemani Sandoval Villarreal · GetseDev — built with ⚡, ☕ and way too many terminal tabs.</sub>
 

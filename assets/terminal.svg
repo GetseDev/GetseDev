@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="56" viewBox="0 0 880 56" role="img" aria-labelledby="t">
+  <title id="t">GetseDev terminal: Player 1, Platform Engineer, Automation + AWS, Open to work</title>
+  <defs>
+    <filter id="g" x="-20%" y="-200%" width="140%" height="500%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect y="0" width="4" height="1" fill="#000000" opacity="0.18"/>
+    </pattern>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace; }
+      .line { animation: ticker 12s linear infinite; }
+      .l2 { animation-delay: 3s; }
+      .l3 { animation-delay: 6s; }
+      .l4 { animation-delay: 9s; }
+      .l2, .l3, .l4 { opacity: 0; }
+      @keyframes ticker {
+        0%, 24.5% { opacity: 1; }
+        25%, 100% { opacity: 0; }
+      }
+      .cursor { animation: blink 1s steps(1, end) infinite; }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="878" height="54" rx="8" fill="#0b0a1f" stroke="#ff2e97" stroke-width="1.4" opacity="0.98"/>
+  <rect x="1" y="1" width="878" height="54" rx="8" fill="url(#scan)"/>
+  <rect x="1" y="1" width="878" height="2" rx="1" fill="#00e5ff" opacity="0.35"/>
+
+  <g class="mono" font-size="17" font-weight="bold" letter-spacing="1.6" fill="#39ff14">
+    <text class="line l1" x="30" y="35"><tspan fill="#00e5ff">&gt;</tspan> PLAYER 1: GETSEDEV<tspan class="cursor" fill="#39ff14">_</tspan></text>
+    <text class="line l2" x="30" y="35"><tspan fill="#00e5ff">&gt;</tspan> CLASS: PLATFORM ENGINEER<tspan class="cursor" fill="#39ff14">_</tspan></text>
+    <text class="line l3" x="30" y="35"><tspan fill="#00e5ff">&gt;</tspan> SPECIAL: AUTOMATION + AWS<tspan class="cursor" fill="#39ff14">_</tspan></text>
+    <text class="line l4" x="30" y="35"><tspan fill="#00e5ff">&gt;</tspan> STATUS: <tspan fill="#ff2e97">OPEN TO WORK</tspan><tspan class="cursor" fill="#ff2e97">_</tspan></text>
+  </g>
+
+  <g class="mono" font-size="10.5" letter-spacing="2" fill="#8a7fb5">
+    <text x="848" y="33" text-anchor="end">READY</text>
+    <circle cx="790" cy="29" r="3" fill="#39ff14"/>
+  </g>
+</svg>

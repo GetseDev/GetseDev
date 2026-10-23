@@ -11,6 +11,11 @@
     <feGaussianBlur stdDeviation="2.4" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
+  <style>
+    .pulse { animation: dpulse 3.6s ease-in-out infinite; }
+    @keyframes dpulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+  </style>
 </defs>
 <rect x="0" y="13" width="1200" height="2" fill="url(#dg)" opacity="0.9" filter="url(#dglow)"/>
 <rect x="8" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
@@ -38,6 +43,5 @@
 <rect x="1064" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
 <rect x="1112" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
 <rect x="1160" y="10" width="3" height="8" fill="#7a2bff" opacity="0.55"/>
-<path d="M600 6 L607 14 L600 22 L593 14 Z" fill="#ff2e97" filter="url(#dglow)"/>
-<path d="M600 9 L604 14 L600 19 L596 14 Z" fill="#fff"/>
+<g class="pulse"><path d="M600 6 L607 14 L600 22 L593 14 Z" fill="#ff2e97" filter="url(#dglow)"/><path d="M600 9 L604 14 L600 19 L596 14 Z" fill="#fff"/></g>
 </svg>
