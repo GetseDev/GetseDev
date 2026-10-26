@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#05010f">
 
   <title>Josué Getsemani Sandoval Villarreal — DevOps / Platform Engineer (AWS, Docker, CI/CD)</title>
   <meta name="description" content="Josué Getsemani Sandoval Villarreal (GetseDev) — DevOps / Platform Engineer specializing in AWS, Docker/ECS, CI/CD (Azure DevOps), CloudFormation, container security and Go deployment automation. Based in Tijuana, working remotely. Open to DevOps, Platform and Cloud roles.">
@@ -65,91 +66,368 @@
   </script>
 
   <style>
-    :root { --bg:#0d1117; --fg:#e6edf3; --muted:#9da7b3; --acc:#58a6ff; --card:#161b22; --bd:#30363d; }
+    :root {
+      --bg: #05010f;
+      --panel: #0b0a1f;
+      --fg: #ece9ff;
+      --muted: #b3a7d9;
+      --cyan: #00e5ff;
+      --pink: #ff2e97;
+      --green: #39ff14;
+      --purple: #7a2bff;
+      --line: #2a1b4e;
+      --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Courier New", monospace;
+      color-scheme: dark;
+    }
     * { box-sizing: border-box; }
-    body { margin:0; font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--fg); line-height:1.6; }
-    .wrap { max-width:820px; margin:0 auto; padding:48px 20px; }
-    h1 { font-size:2rem; margin:0 0 .2em; }
-    h2 { font-size:1.15rem; margin:2em 0 .4em; color:var(--acc); }
-    p, li { color:var(--fg); }
-    .muted { color:var(--muted); }
-    .tag { display:inline-block; background:var(--card); border:1px solid var(--bd); border-radius:999px; padding:4px 12px; margin:3px 4px 0 0; font-size:.85rem; }
-    a { color:var(--acc); text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    ul { padding-left:1.2em; }
-    header { border-bottom:1px solid var(--bd); padding-bottom:20px; position:relative; }
-    .links a { margin-right:14px; font-weight:600; }
-    footer { margin-top:40px; border-top:1px solid var(--bd); padding-top:16px; font-size:.85rem; color:var(--muted); }
-    #lang { position:absolute; top:0; right:0; background:var(--card); border:1px solid var(--bd); border-radius:999px; overflow:hidden; }
-    #lang button { background:none; border:0; color:var(--muted); font-weight:700; padding:6px 12px; cursor:pointer; }
-    #lang button.active { color:var(--fg); background:#21262d; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(900px 500px at 50% -10%, rgba(255, 46, 151, .20), transparent 60%),
+        radial-gradient(700px 400px at 95% 10%, rgba(0, 229, 255, .12), transparent 60%),
+        repeating-linear-gradient(0deg, rgba(255, 255, 255, .04) 0 1px, transparent 1px 4px);
+    }
+    body::after {
+      content: "";
+      position: fixed;
+      left: -50%;
+      right: -50%;
+      bottom: -10vh;
+      height: 55vh;
+      z-index: 0;
+      pointer-events: none;
+      background:
+        repeating-linear-gradient(90deg, rgba(255, 46, 151, .30) 0 1px, transparent 1px 90px),
+        repeating-linear-gradient(0deg, rgba(0, 229, 255, .22) 0 1px, transparent 1px 64px);
+      transform: perspective(420px) rotateX(62deg);
+      transform-origin: bottom center;
+      opacity: .28;
+      -webkit-mask-image: linear-gradient(transparent, #000 60%);
+      mask-image: linear-gradient(transparent, #000 60%);
+    }
+    .wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 26px 20px 80px;
+    }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .hud {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 2px;
+      color: var(--cyan);
+    }
+    .hud b { color: var(--pink); }
+    #lang {
+      display: flex;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      overflow: hidden;
+      background: rgba(11, 10, 31, .85);
+      box-shadow: 0 0 12px rgba(0, 229, 255, .12);
+    }
+    #lang button {
+      background: none;
+      border: 0;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-weight: 700;
+      font-size: 12px;
+      letter-spacing: 1px;
+      padding: 6px 14px;
+      cursor: pointer;
+    }
+    #lang button.active {
+      color: #0b0a1f;
+      background: linear-gradient(90deg, var(--cyan), var(--pink));
+    }
+    .banner {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      box-shadow: 0 0 28px rgba(255, 46, 151, .18);
+    }
+    .terminal {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      margin: 24px 0 4px;
+      flex-wrap: wrap;
+    }
+    .portrait {
+      width: 150px;
+      height: 150px;
+      flex: 0 0 auto;
+      filter: drop-shadow(0 0 14px rgba(0, 229, 255, .25));
+      animation: float 5s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: clamp(1.5rem, 4vw, 2.15rem);
+      line-height: 1.15;
+      letter-spacing: .3px;
+      background: linear-gradient(90deg, #7df9ff, #fff 45%, #ff9ade);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .role {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: .82rem;
+      letter-spacing: .6px;
+      text-transform: uppercase;
+    }
+    .links a {
+      display: inline-block;
+      margin: 2px 14px 2px 0;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: .8rem;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-bottom: 1px dashed rgba(57, 255, 20, .35);
+      padding-bottom: 1px;
+    }
+    .links a:hover {
+      color: #fff;
+      text-shadow: 0 0 10px var(--green);
+      border-color: var(--green);
+    }
+    section {
+      margin-top: 22px;
+      padding: 20px 22px;
+      background: linear-gradient(180deg, rgba(11, 10, 31, .94), rgba(9, 6, 22, .88));
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, .45), inset 0 1px 0 rgba(255, 255, 255, .03);
+    }
+    h2 {
+      margin: 0 0 14px;
+      font-family: var(--mono);
+      font-size: .92rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--cyan);
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+    h2::before { content: "▸ "; color: var(--pink); }
+    h3 {
+      margin: 16px 0 4px;
+      font-size: 1rem;
+      color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: baseline;
+    }
+    h3 .date {
+      font-family: var(--mono);
+      font-size: .72rem;
+      color: var(--green);
+      border: 1px solid rgba(57, 255, 20, .35);
+      border-radius: 999px;
+      padding: 2px 9px;
+      letter-spacing: .5px;
+    }
+    p { margin: 0 0 12px; }
+    ul { margin: 6px 0 0; padding-left: 1.15em; }
+    li { margin: 7px 0; }
+    li::marker { color: var(--pink); }
+    .tag {
+      display: inline-block;
+      background: #120a2a;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 4px 10px;
+      margin: 4px 6px 0 0;
+      font-family: var(--mono);
+      font-size: .76rem;
+      color: #d9ccff;
+    }
+    .tag:hover {
+      border-color: var(--cyan);
+      color: #fff;
+      box-shadow: 0 0 10px rgba(0, 229, 255, .18);
+    }
+    .note {
+      color: var(--muted);
+      font-size: .85rem;
+      font-family: var(--mono);
+    }
+    a { color: var(--cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .divider { display: block; width: 100%; margin: 26px 0 18px; opacity: .9; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: .8rem;
+    }
+    footer .coin {
+      font-family: var(--mono);
+      letter-spacing: 3px;
+      color: var(--green);
+      font-size: .75rem;
+      margin-bottom: 8px;
+    }
+    @media (max-width: 620px) {
+      .hero { gap: 14px; }
+      .portrait { width: 104px; height: 104px; }
+      section { padding: 16px; }
+      .wrap { padding: 18px 14px 60px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .portrait { animation: none; }
+      html { scroll-behavior: auto; }
+    }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <header>
+    <div class="topbar">
+      <div class="hud">◆ PLAYER 1 · <b>GETSEDEV</b></div>
       <div id="lang">
         <button data-l="en" class="active">EN</button>
         <button data-l="es">ES</button>
       </div>
-      <h1>Josué Getsemani Sandoval Villarreal</h1>
-      <p class="muted" data-en="DevOps / Platform Engineer (Semi-Senior) · Tijuana, MX · Working remotely"
-                      data-es="DevOps / Platform Engineer (Semi-Senior) · Tijuana, MX · Trabajando en remoto">DevOps / Platform Engineer (Semi-Senior) · Tijuana, MX · Working remotely</p>
-      <p class="links">
-        <a href="https://www.linkedin.com/in/getsemani/">LinkedIn</a>
-        <a href="https://github.com/GetseDev">GitHub</a>
-        <a href="mailto:getsemanilol29@gmail.com">Email</a>
-      </p>
+    </div>
+
+    <img class="banner" src="assets/banner.svg?v=3" alt="GetseDev — retro arcade banner: DevOps / Platform Engineer">
+    <img class="terminal" src="assets/terminal.svg?v=3" alt="Player 1: GetseDev — Platform Engineer — employed and open to offers">
+
+    <header class="hero">
+      <img class="portrait" src="assets/avatar-glitch.svg?v=2" alt="Pixel-art avatar of Josué Getsemani (GetseDev) on a glitching CRT screen">
+      <div>
+        <h1>Josué Getsemani Sandoval Villarreal</h1>
+        <p class="role" data-en="DevOps / Platform Engineer (Semi-Senior) · Tijuana, MX · Working remotely"
+                          data-es="DevOps / Platform Engineer (Semi-Senior) · Tijuana, MX · Trabajando en remoto">DevOps / Platform Engineer (Semi-Senior) · Tijuana, MX · Working remotely</p>
+        <p class="links">
+          <a href="https://www.linkedin.com/in/getsemani/">LinkedIn</a>
+          <a href="https://github.com/GetseDev">GitHub</a>
+          <a href="https://getsedev.github.io/GetseDev/resume.json">Resume</a>
+          <a href="mailto:getsemanilol29@gmail.com">Email</a>
+        </p>
+      </div>
     </header>
 
-    <h2 data-en="About" data-es="Acerca de">About</h2>
-    <p data-en="DevOps / Platform Engineer focused on deployment automation, CI/CD and cloud (AWS). I automate the install and deployment of integration platforms, design multi-brand release pipelines with secret management, and standardize container images with a focus on security and vulnerability remediation. Solid backend background (Java/Spring) as a bridge between code and infrastructure."
-       data-es="DevOps / Platform Engineer enfocado en automatización de despliegues, CI/CD y cloud (AWS). Automatizo la instalación y despliegue de plataformas de integración, diseño pipelines de release multi-marca con manejo de secretos, y estandarizo imágenes de contenedor con foco en seguridad y remediación de vulnerabilidades. Base sólida de backend (Java/Spring) como puente entre el código y la infraestructura.">DevOps / Platform Engineer focused on deployment automation, CI/CD and cloud (AWS).</p>
+    <section>
+      <h2 data-en="About" data-es="Acerca de">About</h2>
+      <p data-en="DevOps / Platform Engineer focused on deployment automation, CI/CD and cloud (AWS). I automate the install and deployment of integration platforms, design multi-brand release pipelines with secret management, and standardize container images with a focus on security and vulnerability remediation. Solid backend background (Java/Spring) as a bridge between code and infrastructure."
+         data-es="DevOps / Platform Engineer enfocado en automatización de despliegues, CI/CD y cloud (AWS). Automatizo la instalación y despliegue de plataformas de integración, diseño pipelines de release multi-marca con manejo de secretos, y estandarizo imágenes de contenedor con foco en seguridad y remediación de vulnerabilidades. Base sólida de backend (Java/Spring) como puente entre el código y la infraestructura.">DevOps / Platform Engineer focused on deployment automation, CI/CD and cloud (AWS).</p>
+      <p class="note" data-en="Currently employed, always open to a good conversation." data-es="Actualmente empleado, siempre abierto a una buena conversación.">Currently employed, always open to a good conversation.</p>
+    </section>
 
-    <h2 data-en="Stack" data-es="Stack">Stack</h2>
-    <p>
-      <span class="tag">AWS (ECS/Fargate, ECR, RDS, DynamoDB, ElastiCache, Secrets Manager, CloudWatch)</span>
-      <span class="tag">Docker</span>
-            <span class="tag">CloudFormation</span>
-      <span class="tag">Azure DevOps (CI/CD)</span>
-      <span class="tag">Go</span>
-      <span class="tag">Node.js</span>
-      <span class="tag">PostgreSQL</span>
-      <span class="tag">Linux</span>
-      <span class="tag">Vuls / Checkmarx</span>
-      <span class="tag">Terraform</span>
-      <span class="tag">Kubernetes</span>
-      <span class="tag">Python</span>
-    </p>
+    <section>
+      <h2 data-en="Stack" data-es="Stack">Stack</h2>
+      <p>
+        <span class="tag">AWS (ECS/Fargate, ECR, RDS, DynamoDB, ElastiCache, Secrets Manager, CloudWatch)</span>
+        <span class="tag">Docker</span>
+        <span class="tag">CloudFormation</span>
+        <span class="tag">Azure DevOps (CI/CD)</span>
+        <span class="tag">Go</span>
+        <span class="tag">Python</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">Linux</span>
+        <span class="tag">Vuls / Checkmarx</span>
+        <span class="tag">Terraform</span>
+        <span class="tag">Kubernetes</span>
+      </p>
+    </section>
 
-    <h2 data-en="Experience" data-es="Experiencia">Experience</h2>
+    <section>
+      <h2 data-en="Experience" data-es="Experiencia">Experience</h2>
 
-    <p><strong>DevOps Engineer</strong> — CITI Value in Real Time · Sep 2025 – <span data-en="Present" data-es="Presente">Present</span></p>
-    <ul>
-      <li data-en="Go CLI that automates provisioning and deployment of an internal integration platform (resumable runs, per-environment configuration)."
-          data-es="CLI en Go que automatiza el alta y despliegue de una plataforma de integración interna (ejecuciones reanudables, configuración por ambiente).">Go CLI that automates provisioning and deployment of an internal integration platform.</li>
-      <li data-en="CI/CD in Azure DevOps: multi-brand release pipelines and database migration gates (Flyway)."
-          data-es="CI/CD en Azure DevOps: pipelines de release multi-marca y gates de migración de base de datos (Flyway).">CI/CD in Azure DevOps.</li>
-      <li data-en="Secrets migration to AWS Secrets Manager (ECS task secrets)."
-          data-es="Migración de secretos a AWS Secrets Manager (ECS task secrets).">Secrets migration to AWS Secrets Manager.</li>
-      <li data-en="Base image standardization and CVE remediation; image scanning (Vuls, Checkmarx)."
-          data-es="Estandarización de imágenes base y remediación de CVEs; escaneo de imágenes (Vuls, Checkmarx).">Base image standardization and CVE remediation.</li>
-      <li data-en="AWS infra: ECS/Fargate, ECR, ElastiCache, DynamoDB, CloudWatch, EventBridge, CloudFormation."
-          data-es="Infra AWS: ECS/Fargate, ECR, ElastiCache, DynamoDB, CloudWatch, EventBridge, CloudFormation.">AWS infra: ECS/Fargate, ECR, ElastiCache, DynamoDB, CloudWatch, EventBridge, CloudFormation.</li>
-    </ul>
+      <h3>DevOps Engineer — CITI Value in Real Time <span class="date">Sep 2025 – <span data-en="Present" data-es="Presente">Present</span></span></h3>
+      <ul>
+        <li data-en="Go CLI that automates provisioning and deployment of an internal integration platform (resumable runs, per-environment configuration)."
+            data-es="CLI en Go que automatiza el alta y despliegue de una plataforma de integración interna (ejecuciones reanudables, configuración por ambiente).">Go CLI that automates provisioning and deployment of an internal integration platform.</li>
+        <li data-en="CI/CD in Azure DevOps: multi-brand release pipelines and database migration gates (Flyway)."
+            data-es="CI/CD en Azure DevOps: pipelines de release multi-marca y gates de migración de base de datos (Flyway).">CI/CD in Azure DevOps.</li>
+        <li data-en="Secrets migration to AWS Secrets Manager (ECS task secrets)."
+            data-es="Migración de secretos a AWS Secrets Manager (ECS task secrets).">Secrets migration to AWS Secrets Manager.</li>
+        <li data-en="Base image standardization and CVE remediation; image scanning (Vuls, Checkmarx)."
+            data-es="Estandarización de imágenes base y remediación de CVEs; escaneo de imágenes (Vuls, Checkmarx).">Base image standardization and CVE remediation.</li>
+        <li data-en="AWS infra: ECS/Fargate, ECR, ElastiCache, DynamoDB, CloudWatch, EventBridge, CloudFormation."
+            data-es="Infra AWS: ECS/Fargate, ECR, ElastiCache, DynamoDB, CloudWatch, EventBridge, CloudFormation.">AWS infra: ECS/Fargate, ECR, ElastiCache, DynamoDB, CloudWatch, EventBridge, CloudFormation.</li>
+      </ul>
 
-    <p><strong>Mid Back End Developer</strong> — CITI Value in Real Time · May 2023 – Sep 2025</p>
-    <ul>
-      <li data-en="Mobile payments backend; migration of relational databases to GCP Cloud Spanner."
-          data-es="Backend de pagos móviles; migración de bases relacionales a GCP Cloud Spanner.">Mobile payments backend; migration to GCP Cloud Spanner.</li>
-      <li data-en="HikariCP, Google Cloud logging, reconciliation & settlement batch jobs. Java 8, Spring, MuleSoft ESB."
-          data-es="HikariCP, logging en Google Cloud, batch de conciliación y liquidación. Java 8, Spring, MuleSoft ESB.">HikariCP, Google Cloud logging, batch jobs. Java 8, Spring, MuleSoft ESB.</li>
-    </ul>
+      <h3>Mid Back End Developer — CITI Value in Real Time <span class="date">May 2023 – Sep 2025</span></h3>
+      <ul>
+        <li data-en="Mobile payments backend; migration of relational databases to GCP Cloud Spanner."
+            data-es="Backend de pagos móviles; migración de bases relacionales a GCP Cloud Spanner.">Mobile payments backend; migration to GCP Cloud Spanner.</li>
+        <li data-en="HikariCP, Google Cloud logging, reconciliation & settlement batch jobs. Java 8, Spring, MuleSoft ESB."
+            data-es="HikariCP, logging en Google Cloud, batch de conciliación y liquidación. Java 8, Spring, MuleSoft ESB.">HikariCP, Google Cloud logging, batch jobs. Java 8, Spring, MuleSoft ESB.</li>
+      </ul>
+    </section>
 
-    <h2 data-en="Contact" data-es="Contacto">Contact</h2>
-    <p><span data-en="Email" data-es="Correo">Email</span>: <a href="mailto:getsemanilol29@gmail.com">getsemanilol29@gmail.com</a> · LinkedIn: <a href="https://www.linkedin.com/in/getsemani/">/in/getsemani</a></p>
+    <section>
+      <h2 data-en="Side quests" data-es="Misiones secundarias">Side quests</h2>
+      <p>
+        <span data-en="Anime, video games and building my own roguelite:" data-es="Anime, videojuegos y construyendo mi propio roguelite:">Anime, video games and building my own roguelite:</span>
+        <a href="https://github.com/GetseDev/goddess-trial">Goddess's Trial</a>
+        <span data-en="(Hades-style, one thumb, Android)." data-es="(estilo Hades, un dedo, Android).">(Hades-style, one thumb, Android).</span>
+      </p>
+      <p class="note">NOW PLAYING: League of Legends · Digimon Story: Time Stranger · CS2</p>
+      <p>
+        <span class="tag">BLEACH</span>
+        <span class="tag">BLACK CLOVER</span>
+        <span class="tag">ATTACK ON TITAN</span>
+        <span class="tag">BLUE LOCK</span>
+        <span class="tag">VINLAND SAGA</span>
+        <span class="tag">DIGIMON</span>
+        <span class="tag">HADES</span>
+        <span class="tag">CS2</span>
+      </p>
+    </section>
 
-    <footer>© <span id="y"></span> Josué Getsemani Sandoval Villarreal · GetseDev</footer>
+    <section>
+      <h2 data-en="Contact" data-es="Contacto">Contact</h2>
+      <p><span data-en="Email" data-es="Correo">Email</span>: <a href="mailto:getsemanilol29@gmail.com">getsemanilol29@gmail.com</a> · LinkedIn: <a href="https://www.linkedin.com/in/getsemani/">/in/getsemani</a></p>
+    </section>
+
+    <img class="divider" src="assets/divider.svg?v=2" alt="">
+
+    <footer>
+      <div class="coin">INSERT COIN TO CONTINUE</div>
+      <div>© <span id="y"></span> Josué Getsemani Sandoval Villarreal · GetseDev</div>
+    </footer>
   </div>
 
   <script>
