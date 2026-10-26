@@ -22,7 +22,9 @@
     <td width="200" valign="middle" align="center">
       <img src="assets/avatar-glitch.svg?v=2" width="176" alt="Pixel-art avatar of Josué Getsemani (GetseDev) on a glitching CRT screen">
       <br>
-      <img src="assets/digimon-partner.svg?v=1" width="90" alt="Pixel Digimon partner: orange digital monster with green eyes">
+      <img src="assets/terriermon-partner.svg?v=1" width="132" alt="Terriermon pixel-art partner sprite">
+      <br>
+      <sub>PARTNER · TERRIERMON</sub>
     </td>
     <td valign="middle">
 <pre>
@@ -53,8 +55,8 @@ I automate the install and deployment of integration platforms, design multi-bra
 >
 > 「七転び八起き」 — *fall seven times, stand up eight.*
 
-- 🔭 **Currently building:** an **LLM Gateway on AWS** (API Gateway · Terraform · CDK · Python).
-- 🎯 **Currently grinding:** Terraform · AWS CDK · Kubernetes · Python.
+- 🔭 **Currently building:** an **LLM Gateway on AWS** (API Gateway · Terraform · Python).
+- 🧰 **Toolbox:** Terraform · Kubernetes · Python (plus Go, Bash and a lot of YAML).
 - 🕹️ **Open to:** DevOps / Platform / Cloud / SRE roles — remote (from Tijuana, MX).
 - ⚡ **Power move:** debugging down to the root cause instead of restarting the pod and praying.
 - 🎮 **Off duty:** anime, CS/LoL with friends, Digimon, and a backlog I will never finish.
@@ -77,7 +79,7 @@ I automate the install and deployment of integration platforms, design multi-bra
 
 **🧱 INFRA AS CODE**
 
-<img src="https://img.shields.io/badge/CLOUDFORMATION-FF4F8B?style=for-the-badge&labelColor=0B0A1F" alt="CloudFormation"> <img src="https://img.shields.io/badge/TERRAFORM-7B42BC?style=for-the-badge&logo=terraform&logoColor=white&labelColor=0B0A1F" alt="Terraform"> <img src="https://img.shields.io/badge/AWS%20CDK-FF9900?style=for-the-badge&labelColor=0B0A1F" alt="AWS CDK">
+<img src="https://img.shields.io/badge/CLOUDFORMATION-FF4F8B?style=for-the-badge&labelColor=0B0A1F" alt="CloudFormation"> <img src="https://img.shields.io/badge/TERRAFORM-7B42BC?style=for-the-badge&logo=terraform&logoColor=white&labelColor=0B0A1F" alt="Terraform">
 
 **💻 LANGUAGES**
 
@@ -120,14 +122,14 @@ I automate the install and deployment of integration platforms, design multi-bra
 | 🤖 | **MECHA PILOT** | services containerized on ECS/Fargate with standardized base images |
 | 🧘 | **KAIZEN** | continuous CVE remediation + image scanning (Vuls · Checkmarx) |
 
-> 🔒 **NEXT UNLOCKS:** Terraform mastery · Kubernetes black belt · AWS certifications.
+> 🔒 **NEXT UNLOCKS:** AWS certifications · advanced platform design.
 
 ## `> FEATURED_PROJECTS`
 
 | 🎮 PROJECT | STATUS | STACK |
 |:--|:--:|:--|
 | **[Goddess's Trial](https://github.com/GetseDev/goddess-trial)** — one-thumb survivor × Hades-style roguelite for Android | 🟠 PROTOTYPE | Godot 4.7 · GDScript |
-| **[LLM Gateway](https://github.com/GetseDev/llm-gateway)** — provider-agnostic entry point for AI models: auth, team budgets, cost tracking, guardrails | 🟢 IN PROGRESS | API Gateway · Terraform · CDK · Python |
+| **[LLM Gateway](https://github.com/GetseDev/llm-gateway)** — provider-agnostic entry point for AI models: auth, team budgets, cost tracking, guardrails | 🟢 IN PROGRESS | API Gateway · Terraform · Python |
 | **[Terraform Modules](https://github.com/GetseDev/terraform-modules-getsemani)** — reusable AWS modules, built in public with branches + PRs | 🟢 IN PROGRESS | Terraform · AWS |
 | **[AWS + Terraform Microservices Lab](https://github.com/GetseDev/aws-terraform-microservices-lab)** — CI/CD + Terraform + AWS lab with FastAPI microservices | 🧪 LAB | Terraform · FastAPI · AWS |
 
@@ -163,7 +165,7 @@ I automate the install and deployment of integration platforms, design multi-bra
 
 <sub>🎮 Currently building my own roguelite — **[Goddess's Trial](https://github.com/GetseDev/goddess-trial)** (Hades-style, one thumb, Android).</sub>
 
-<sub>🦖 Partner Digimon included — it lives in the player card above (and it blinks).</sub>
+<sub>🐰 Partner Digimon included — **Terriermon** lives in the player card above (and it bobs).</sub>
 
 ## `> HIGH_SCORES`
 
