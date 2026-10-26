@@ -159,6 +159,8 @@ I automate the install and deployment of integration platforms, design multi-bra
 
 > Clutch rounds, ranked teamfights, roguelite runs and Digimon grinding — the *"one more run"* energy I bring to automation.
 
+> 🎮 **NOW PLAYING:** `League of Legends` · `Digimon Story: Time Stranger` · `CS2` — *last updated Oct 2026.*
+
 <sub>🎮 Currently building my own roguelite — **[Goddess's Trial](https://github.com/GetseDev/goddess-trial)** (Hades-style, one thumb, Android).</sub>
 
 <sub>🦖 Partner Digimon included — it lives in the player card above (and it blinks).</sub>

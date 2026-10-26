@@ -24,7 +24,7 @@
 - LLM Gateway on AWS, personal project, in progress since Oct 2026: provider-agnostic LLM gateway on AWS API Gateway; infrastructure in Terraform and AWS CDK; Python.
 
 ## Skills
-- Production experience: AWS (ECS/Fargate, ECR, Secrets Manager, CloudWatch, EventBridge, S3, RDS, DynamoDB, ElastiCache), CloudFormation, Docker, Azure DevOps CI/CD, Flyway, Linux, Bash, Go, Java/Spring Boot, PostgreSQL, MongoDB, WSO2, container security (Vuls, Checkmarx).
+- Production experience: AWS (ECS/Fargate, ECR, Secrets Manager, CloudWatch, EventBridge, S3, RDS, DynamoDB, ElastiCache), CloudFormation, Docker, Azure DevOps CI/CD, Flyway, Linux, Bash, Go, Java/Spring Boot, PostgreSQL, MongoDB, container security (Vuls, Checkmarx).
 - Currently learning: Terraform, AWS CDK, Kubernetes, Python.
 
 ## Education
