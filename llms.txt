@@ -21,11 +21,12 @@
 
 ## Projects
 - Deployment Automation CLI (Go), work project, in progress since Sep 2026: provisions and deploys an internal integration platform with resumable execution and per-environment configuration (details under NDA).
-- LLM Gateway on AWS, personal project, in progress since Oct 2026: provider-agnostic LLM gateway on AWS API Gateway; infrastructure in Terraform and AWS CDK; Python.
+- LLM Gateway on AWS, personal project, in progress since Oct 2026: provider-agnostic LLM gateway on AWS API Gateway; infrastructure in Terraform; Python.
 
 ## Skills
 - Production experience: AWS (ECS/Fargate, ECR, Secrets Manager, CloudWatch, EventBridge, S3, RDS, DynamoDB, ElastiCache), CloudFormation, Docker, Azure DevOps CI/CD, Flyway, Linux, Bash, Go, Java/Spring Boot, PostgreSQL, MongoDB, container security (Vuls, Checkmarx).
-- Currently learning: Terraform, AWS CDK, Kubernetes, Python.
+- Also working with: Terraform, Kubernetes, Python.
+- Currently learning: AWS certifications and advanced platform design.
 
 ## Education
 - Licenciatura in Information Technology, Universidad de Guadalajara (2018–2022)

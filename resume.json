@@ -55,10 +55,10 @@
   ],
   "skills": [
     { "name": "AWS", "keywords": ["ECS", "Fargate", "ECR", "RDS", "DynamoDB", "ElastiCache", "Secrets Manager", "CloudWatch", "EventBridge", "S3", "ACM"] },
-    { "name": "Containers", "keywords": ["Docker", "ECS/Fargate", "Kubernetes (occasional)"] },
+    { "name": "Containers", "keywords": ["Docker", "ECS/Fargate", "Kubernetes"] },
     { "name": "CI/CD", "keywords": ["Azure DevOps", "Flyway"] },
-    { "name": "IaC", "keywords": ["CloudFormation", "Terraform (personal)"] },
-    { "name": "Languages", "keywords": ["Go", "JavaScript", "Node.js", "Bash", "Java", "Spring Boot"] },
+    { "name": "IaC", "keywords": ["CloudFormation", "Terraform"] },
+    { "name": "Languages", "keywords": ["Go", "Python", "JavaScript", "Node.js", "Bash", "Java", "Spring Boot"] },
     { "name": "Data", "keywords": ["PostgreSQL", "MongoDB", "GCP Cloud Spanner"] },
     { "name": "Security", "keywords": ["CVE remediation", "Vuls", "Checkmarx", "secrets management"] }
   ],
