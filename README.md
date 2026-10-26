@@ -5,9 +5,9 @@
 
 <div align="center">
 
-<img src="assets/banner.svg?v=2" width="100%" alt="GetseDev — retro arcade banner: DevOps / Platform Engineer">
+<img src="assets/banner.svg?v=3" width="100%" alt="GetseDev — retro arcade banner: DevOps / Platform Engineer">
 
-<img src="assets/terminal.svg?v=2" width="860" alt="Player 1: GetseDev — Platform Engineer — Automation + AWS — Open to work">
+<img src="assets/terminal.svg?v=3" width="860" alt="Player 1: GetseDev — Platform Engineer — Automation + AWS — employed and open to offers">
 
 <br>
 
@@ -57,7 +57,7 @@ I automate the install and deployment of integration platforms, design multi-bra
 
 - 🔭 **Currently building:** an **LLM Gateway on AWS** (API Gateway · Terraform · Python).
 - 🧰 **Toolbox:** Terraform · Kubernetes · Python (plus Go, Bash and a lot of YAML).
-- 🕹️ **Open to:** DevOps / Platform / Cloud / SRE roles — remote (from Tijuana, MX).
+- 🕹️ **Open to:** the right DevOps / Platform / Cloud / SRE role — remote (from Tijuana, MX). Currently employed, but always open to a good offer.
 - ⚡ **Power move:** debugging down to the root cause instead of restarting the pod and praying.
 - 🎮 **Off duty:** anime, CS/LoL with friends, Digimon, and a backlog I will never finish.
 - 🎓 **Save file:** B.Sc. in Information Technology — Universidad de Guadalajara (2018–2022).

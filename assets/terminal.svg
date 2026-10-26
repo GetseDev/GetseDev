@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="56" viewBox="0 0 880 56" role="img" aria-labelledby="t">
-  <title id="t">GetseDev terminal: Player 1, Platform Engineer, Automation + AWS, Open to work</title>
+  <title id="t">GetseDev terminal: Player 1, Platform Engineer, Automation + AWS, employed and open to offers</title>
   <defs>
     <filter id="g" x="-20%" y="-200%" width="140%" height="500%">
       <feGaussianBlur stdDeviation="2.2" result="b"/>
@@ -35,7 +35,7 @@
     <text class="line l1" x="30" y="35"><tspan fill="#00e5ff">&gt;</tspan> PLAYER 1: GETSEDEV<tspan class="cursor" fill="#39ff14">_</tspan></text>
     <text class="line l2" x="30" y="35"><tspan fill="#00e5ff">&gt;</tspan> CLASS: PLATFORM ENGINEER<tspan class="cursor" fill="#39ff14">_</tspan></text>
     <text class="line l3" x="30" y="35"><tspan fill="#00e5ff">&gt;</tspan> SPECIAL: AUTOMATION + AWS<tspan class="cursor" fill="#39ff14">_</tspan></text>
-    <text class="line l4" x="30" y="35"><tspan fill="#00e5ff">&gt;</tspan> STATUS: <tspan fill="#ff2e97">OPEN TO WORK</tspan><tspan class="cursor" fill="#ff2e97">_</tspan></text>
+    <text class="line l4" x="30" y="35"><tspan fill="#00e5ff">&gt;</tspan> STATUS: <tspan fill="#ff2e97">EMPLOYED · OPEN TO OFFERS</tspan><tspan class="cursor" fill="#ff2e97">_</tspan></text>
   </g>
 
   <g class="mono" font-size="10.5" letter-spacing="2" fill="#8a7fb5">
