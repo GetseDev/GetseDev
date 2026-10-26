@@ -1,6 +1,6 @@
 # Josué Getsemani Sandoval Villarreal — DevOps / Platform Engineer
 
-> DevOps / Platform Engineer (Semi-Senior) in Mexico City, focused on AWS, containers, CI/CD and deployment automation. About 3.5 years in software: 2.5 as a Java backend developer and 1+ in DevOps. Open to DevOps, Platform and Cloud Engineer roles (remote or Mexico City).
+> DevOps / Platform Engineer (Semi-Senior) based in Tijuana and working remotely, focused on AWS, containers, CI/CD and deployment automation. About 3.5 years in software: 2.5 as a Java backend developer and 1+ in DevOps. Open to DevOps, Platform and Cloud Engineer roles (remote).
 
 ## Profiles
 - [Website](https://getsedev.github.io/GetseDev/): personal page and summary
@@ -11,7 +11,7 @@
 ## Facts
 - Name: Josué Getsemani Sandoval Villarreal (handle: GetseDev)
 - Role: DevOps / Platform Engineer, Semi-Senior
-- Location: Mexico City, Mexico
+- Location: Tijuana, Baja California, Mexico (works remotely)
 - Languages: Spanish (native), English (A2, improving)
 - Contact: getsemanilol29@gmail.com
 
@@ -20,7 +20,7 @@
 - Mid Back End Developer, CITI Value in Real Time (May 2023 – Sep 2025): Java/Spring backend for a mobile payments platform; migration of Oracle/MariaDB to GCP Cloud Spanner; HikariCP; reconciliation and settlement batch jobs; MuleSoft ESB.
 
 ## Projects
-- Deployment Automation CLI (Go), work project, in progress since Sep 2026: provisions and deploys an integration platform (WSO2 Identity Server / API Manager) with resumable execution and per-environment configuration.
+- Deployment Automation CLI (Go), work project, in progress since Sep 2026: provisions and deploys an internal integration platform with resumable execution and per-environment configuration (details under NDA).
 - LLM Gateway on AWS, personal project, in progress since Oct 2026: provider-agnostic LLM gateway on AWS API Gateway; infrastructure in Terraform and AWS CDK; Python.
 
 ## Skills

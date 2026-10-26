@@ -21,6 +21,8 @@
   <tr>
     <td width="200" valign="middle" align="center">
       <img src="assets/avatar-glitch.svg?v=2" width="176" alt="Pixel-art avatar of Josué Getsemani (GetseDev) on a glitching CRT screen">
+      <br>
+      <img src="assets/digimon-partner.svg?v=1" width="90" alt="Pixel Digimon partner: orange digital monster with green eyes">
     </td>
     <td valign="middle">
 <pre>
@@ -53,7 +55,7 @@ I automate the install and deployment of integration platforms, design multi-bra
 
 - 🔭 **Currently building:** an **LLM Gateway on AWS** (API Gateway · Terraform · CDK · Python).
 - 🎯 **Currently grinding:** Terraform · AWS CDK · Kubernetes · Python.
-- 🕹️ **Open to:** DevOps / Platform / Cloud / SRE roles — remote (from Tijuana, MX) or Mexico City.
+- 🕹️ **Open to:** DevOps / Platform / Cloud / SRE roles — remote (from Tijuana, MX).
 - ⚡ **Power move:** debugging down to the root cause instead of restarting the pod and praying.
 - 🎮 **Off duty:** anime, CS/LoL with friends, Digimon, and a backlog I will never finish.
 - 🎓 **Save file:** B.Sc. in Information Technology — Universidad de Guadalajara (2018–2022).
@@ -158,6 +160,8 @@ I automate the install and deployment of integration platforms, design multi-bra
 > Clutch rounds, ranked teamfights, roguelite runs and Digimon grinding — the *"one more run"* energy I bring to automation.
 
 <sub>🎮 Currently building my own roguelite — **[Goddess's Trial](https://github.com/GetseDev/goddess-trial)** (Hades-style, one thumb, Android).</sub>
+
+<sub>🦖 Partner Digimon included — it lives in the player card above (and it blinks).</sub>
 
 ## `> HIGH_SCORES`
 

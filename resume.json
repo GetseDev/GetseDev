@@ -7,9 +7,9 @@
     "url": "https://getsedev.github.io/GetseDev/",
     "summary": "DevOps / Platform Engineer focused on deployment automation, CI/CD and cloud (AWS). I automate the install and deployment of integration platforms, design multi-brand release pipelines with secret management, and standardize container images with a focus on security and vulnerability remediation. Solid backend background (Java/Spring).",
     "location": {
-      "city": "Mexico City",
+      "city": "Tijuana",
       "countryCode": "MX",
-      "region": "Mexico City"
+      "region": "Baja California"
     },
     "profiles": [
       { "network": "LinkedIn", "username": "getsemani", "url": "https://www.linkedin.com/in/getsemani/" },
@@ -22,9 +22,9 @@
       "position": "DevOps Engineer",
       "startDate": "2025-09",
       "endDate": "",
-      "location": "Mexico City, Mexico",
+      "location": "Remote (Mexico City, MX)",
       "highlights": [
-        "Deployment automation with a Go CLI for provisioning/deploying an integration platform (tenants, roles/scopes, user stores, Key Manager, Open Banking API).",
+        "Deployment automation with a Go CLI for provisioning/deploying an internal integration platform (resumable runs, per-environment configuration).",
         "CI/CD in Azure DevOps: multi-brand release pipelines (deploy-only, release-time versioning) and database migration gates (Flyway).",
         "Secrets migration from variable groups to AWS Secrets Manager (ECS task secrets).",
         "Base image standardization (Node LTS, Alpine/Debian) and CVE remediation; image scanning (Vuls, Checkmarx).",
@@ -68,7 +68,7 @@
   ],
   "meta": {
     "canonical": "https://getsedev.github.io/GetseDev/",
-    "updated": "2026-10-11",
+    "updated": "2026-10-25",
     "open_to": ["DevOps Engineer", "Platform Engineer", "Cloud Engineer", "SRE"]
   }
 }
