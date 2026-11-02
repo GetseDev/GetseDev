@@ -21,7 +21,9 @@
 
 ## Projects
 - Deployment Automation CLI (Go), work project, in progress since Sep 2026: provisions and deploys an internal integration platform with resumable execution and per-environment configuration (details under NDA).
-- LLM Gateway on AWS, personal project, in progress since Oct 2026: provider-agnostic LLM gateway on AWS API Gateway; infrastructure in Terraform; Python.
+- [LLM Gateway on AWS](https://github.com/GetseDev/llm-gateway), personal project, in progress since Oct 2026: provider-agnostic LLM gateway on AWS API Gateway; infrastructure in Terraform; Python.
+- [Terraform Modules](https://github.com/GetseDev/terraform-modules-getsemani): reusable AWS Terraform modules (learning project).
+- [AWS + Terraform Microservices Lab](https://github.com/GetseDev/aws-terraform-microservices-lab): CI/CD, Terraform and AWS practice with FastAPI microservices.
 
 ## Skills
 - Production experience: AWS (ECS/Fargate, ECR, Secrets Manager, CloudWatch, EventBridge, S3, RDS, DynamoDB, ElastiCache), CloudFormation, Docker, Azure DevOps CI/CD, Flyway, Linux, Bash, Go, Java/Spring Boot, PostgreSQL, MongoDB, container security (Vuls, Checkmarx).

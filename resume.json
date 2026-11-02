@@ -22,7 +22,7 @@
       "position": "DevOps Engineer",
       "startDate": "2025-09",
       "endDate": "",
-      "location": "Remote (Mexico City, MX)",
+      "location": "Remote (Mexico)",
       "highlights": [
         "Deployment automation with a Go CLI for provisioning/deploying an internal integration platform (resumable runs, per-environment configuration).",
         "CI/CD in Azure DevOps: multi-brand release pipelines (deploy-only, release-time versioning) and database migration gates (Flyway).",
@@ -68,7 +68,7 @@
   ],
   "meta": {
     "canonical": "https://getsedev.github.io/GetseDev/",
-    "updated": "2026-10-25",
+    "updated": "2026-11-01",
     "open_to": ["DevOps Engineer", "Platform Engineer", "Cloud Engineer", "SRE"]
   }
 }
