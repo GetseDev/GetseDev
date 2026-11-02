@@ -129,7 +129,7 @@ I automate the install and deployment of integration platforms, design multi-bra
 | 🎮 PROJECT | STATUS | STACK |
 |:--|:--:|:--|
 | **[Goddess's Trial](https://github.com/GetseDev/goddess-trial)** — one-thumb survivor × Hades-style roguelite for Android | 🟠 PROTOTYPE | Godot 4.7 · GDScript |
-| **[LLM Gateway](https://github.com/GetseDev/llm-gateway)** — provider-agnostic entry point for AI models: auth, team budgets, cost tracking, guardrails | 🟢 IN PROGRESS | API Gateway · Terraform · Python |
+| **[LLM Gateway](https://github.com/GetseDev/llm-gateway)** — provider-agnostic entry point for AI models: auth, team budgets, cost tracking, guardrails | 🟢 IN PROGRESS | API Gateway · Terraform (+ CDK port) · Python |
 | **[Terraform Modules](https://github.com/GetseDev/terraform-modules-getsemani)** — reusable AWS modules, built in public with branches + PRs | 🟢 IN PROGRESS | Terraform · AWS |
 | **[AWS + Terraform Microservices Lab](https://github.com/GetseDev/aws-terraform-microservices-lab)** — CI/CD + Terraform + AWS lab with FastAPI microservices | 🧪 LAB | Terraform · FastAPI · AWS |
 
